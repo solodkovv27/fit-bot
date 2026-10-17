@@ -4,12 +4,12 @@ from aiogram import Bot, Dispatcher
 
 import config
 import database as db
-from handlers import profile
-from handlers import water
-from handlers import food
-from handlers import weight
-from handlers import reminders
-from handlers import charts
+import profile
+import water
+import food
+import weight
+import reminders
+import charts
 
 logging.basicConfig(level=logging.INFO)
 
